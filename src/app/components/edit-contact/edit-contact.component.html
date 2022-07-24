@@ -1,0 +1,56 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <p class="h3 text-danger fw-bold">Edit Contact
+      </p>
+      <p class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda eligendi nam obcaecati
+        labore quo
+        voluptatem, atque facere nesciunt aliquam, in adipisci ex nostrum, animi ratione facilis placeat quaerat velit
+        rem?</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <form (submit)="updateSubmit()">
+        <div class="mb-2">
+          <input type="text" class="form-control" placeholder="Name" [(ngModel)]="contact.name" name="name" required>
+        </div>
+        <div class="mb-2">
+          <input type="text" class="form-control" placeholder="Photo URL" [(ngModel)]="contact.photo" name="photo"
+            required>
+        </div>
+        <div class="mb-2">
+          <input type="email" class="form-control" placeholder="Email" [(ngModel)]="contact.email" name="email"
+            required>
+        </div>
+        <div class="mb-2">
+          <input type="number" class="form-control" placeholder="Mobile Number" [(ngModel)]="contact.mobile"
+            name="mobile" required>
+        </div>
+        <div class="mb-2">
+          <input type="text" class="form-control" placeholder="Company" [(ngModel)]="contact.company" name="company"
+            required>
+        </div>
+        <div class="mb-2">
+          <input type="text" class="form-control" placeholder="Title" [(ngModel)]="contact.title" name="title" required>
+        </div>
+        <div class="mb-2">
+          <select class="form-control" *ngIf="groups.length > 0" [(ngModel)]="contact.groupId" name="groupId" required>
+            <option selected>Select a group</option>
+            <option [value]="group.id" *ngFor="let group of groups">{{ group.name }}</option>
+          </select>
+        </div>
+        <div class="mb-2">
+          <input type="submit" class="btn btn-danger" value="Update">
+          <a routerLink="/" class="btn btn-dark ms-2">Close</a>
+        </div>
+      </form>
+    </div>
+    <div class="col-sm-4">
+      <img class="contact-img" [src]="contact.photo">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+{
+  "contacts": [
+    {
+      "id": "ddd4tri2",
+      "name": "Test",
+      "company": "Test",
+      "email": "Test",
+      "title": "Test",
+      "mobile": "000000000",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219969.png",
+      "groupId": "2"
+    },
+    {
+      "id": "ddd4tri3",
+      "name": "Test",
+      "company": "Test",
+      "email": "Test",
+      "title": "Test",
+      "mobile": "000000000",
+      "photo": "https://cdn-icons-png.flaticon.com/512/164/164600.png",
+      "groupId": "1"
+    },
+    {
+      "name": "ฮายาตี หะมะซอ",
+      "photo": "https://scontent.fhdy1-1.fna.fbcdn.net/v/t1.18169-9/15895182_1321430987910133_3020581195007716282_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=k8t-yHIOYyMAX_IObPx&_nc_ht=scontent.fhdy1-1.fna&oh=00_AT8Ay-j_qXoaYkeBEPhxAhIUBPxPlIdRUBrYD9F-bGAUtg&oe=63013CB1",
+      "email": "hayatee.h@yru.ac.th",
+      "mobile": "0885866509",
+      "company": "Yala Rajabhat University",
+      "title": "Officer",
+      "groupId": "1",
+      "id": "gxsJBkS"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "ครอบครัว"
+    },
+    {
+      "id": "2",
+      "name": "เพื่อน"
+    },
+    {
+      "id": "3",
+      "name": "ที่ทำงาน"
+    }
+  ]
+}
