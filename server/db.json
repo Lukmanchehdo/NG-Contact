@@ -1,34 +1,24 @@
 {
   "contacts": [
     {
-      "id": "ddd4tri2",
-      "name": "Test",
-      "company": "Test",
-      "email": "Test",
-      "title": "Test",
-      "mobile": "000000000",
-      "photo": "https://cdn-icons-png.flaticon.com/512/219/219969.png",
-      "groupId": "2"
-    },
-    {
-      "id": "ddd4tri3",
-      "name": "Test",
-      "company": "Test",
-      "email": "Test",
-      "title": "Test",
-      "mobile": "000000000",
-      "photo": "https://cdn-icons-png.flaticon.com/512/164/164600.png",
-      "groupId": "1"
-    },
-    {
       "name": "ฮายาตี หะมะซอ",
       "photo": "https://scontent.fhdy1-1.fna.fbcdn.net/v/t1.18169-9/15895182_1321430987910133_3020581195007716282_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=k8t-yHIOYyMAX_IObPx&_nc_ht=scontent.fhdy1-1.fna&oh=00_AT8Ay-j_qXoaYkeBEPhxAhIUBPxPlIdRUBrYD9F-bGAUtg&oe=63013CB1",
       "email": "hayatee.h@yru.ac.th",
       "mobile": "0885866509",
       "company": "Yala Rajabhat University",
-      "title": "Officer",
+      "title": "officer",
       "groupId": "1",
-      "id": "gxsJBkS"
+      "id": 1
+    },
+    {
+      "name": "Lukman chehdo",
+      "photo": "https://scontent.fhdy1-1.fna.fbcdn.net/v/t1.18169-9/13900319_946315612157342_7296926124957849691_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=fM9_cnDulJ0AX9_60LZ&_nc_ht=scontent.fhdy1-1.fna&oh=00_AT_3o8wx9CvI8wpxQUlcCQhNCu_Vn6vQ3Cxohi4LKKaEVA&oe=63037257",
+      "email": "Lukman.c@yru.ac.th",
+      "mobile": "0987654321",
+      "company": "Yala Rajabhat University",
+      "title": "programmer",
+      "groupId": "3",
+      "id": 2
     }
   ],
   "groups": [

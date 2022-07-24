@@ -33,15 +33,17 @@ export class ContactManagerComponent implements OnInit {
   }
 
   public clicDeleteContact(contactId: string | undefined) {
-    if (contactId) {
-      this.contactService.deleteContact(contactId).subscribe(
-        (data: {}) => {
-          this.getAllContactsFromServer();
-        },
-        (error) => {
-          this.errorMessage = error;
-        }
-      );
+    if (confirm('คุณต้องการลบหรือไม่?')) {
+      if (contactId) {
+        this.contactService.deleteContact(contactId).subscribe(
+          (data: {}) => {
+            this.getAllContactsFromServer();
+          },
+          (error) => {
+            this.errorMessage = error;
+          }
+        );
+      }
     }
   }
 }
